@@ -1,0 +1,41 @@
+body{
+  width:600px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+article img{
+  float:left;
+  margin-right: 30px;
+  width: 216px;
+  height: 172px;
+}
+a{
+  color: #276056;
+}
+article h2
+{
+  margin-top:0;
+}
+.meta a{
+  font-style: italic;
+}
+.meta li:after{
+  content: '\|';
+  padding:0 5px;
+  color: #999;
+}
+.meta li:last-child:after{
+  content: none;
+}
+.meta li{
+  display: inline;
+}
+article h2{
+  font-size: 39px;
+  line-height: 1m;
+}
+.preview
+{
+  float:right;
+  width:370px;
+}
