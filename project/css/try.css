@@ -1,12 +1,30 @@
 .primary h3{
 font-family: 'Cabin Sketch', cursive;
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: bold;;
 color: black;
 }
 .primary{
   background: white;
+
 }
+
+.caption {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  /*left: 65%;*/
+  background-color:blue ;
+  color: whitesmoke;
+  font-size: large;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 40px;
+  opacity: 0.7;
+
+}
+
 .primary p{
   font-family: 'Average', serif;
   color: lightblue;
@@ -18,47 +36,80 @@ body{
   font-family: sans-serif;
 background: #f0f0ed;
 }
-nav{
-background: #9E0303;
-text-align: 50px;
-height:50px;
-float-right;
-padding:10px,20px;
 
-line-height: 40px;
-}
-nav ul{
-
-  float:left;
-  list-style-type: none;
-}
-header h1{
-  float left;
+.head{
+  width:960px;
+  height:50px;
+  position: fixed;
+  top: 0;
+  background-color:#9F0101;
 }
 header{
   overflow: hidden;
-position: fixed;
-width: 100%;
+  z-index:1;
 }
-nav ul li{
-  display: inline;
+.logo{
+  font-size: 38px;
+font-family: 'Cabin Sketch', cursive;
   float:left;
-  text-align: 50px;
-  height:50px;
-  line-height: 40px;
+  color: white;
+  /*opacity: 0.2;*/
 }
-nav ul li:hover{
-  background-color:#581C1C;
+.menu nav{
+  float:right;
 }
-nav a{
+.menu li{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 15px;
+}
+.head a{
   text-decoration: none;
   color: white;
-  font-family: sans-serif;
-  font-size: 20px;
+margin-top: 20px;
+opacity: 0.1px;
+text-decoration: none;
+font-family: 'Cabin Sketch', cursive;
+font-size: 16px;
 }
-.hero_div{
-  background-image: url('abs.jpg');
+.head a:hover{
+  color: #590303;
+}
+.line{
+  color: black;
+  text-shadow: none;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top:80%;
+  left:16%;
+  font-size: 64px;
+font-family: 'Cabin Sketch', cursive;
+font-weight: 500;
+}
+.hero_div1{
+  background-image: url('ru.jpg');
   background-repeat: no-repeat;
-  margin-top: 100px;
+  background-size: cover;
+  margin-top: 10px;
   height: 100%;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+}
+.foot_w{
+  background-color: #9F0101;
+}
+.links li{
+display: inline-block;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Cabin Sketch', cursive;
+  font-size:12px;
+}
+.links a:hover{
+  text-decoration: underline;
 }
