@@ -1,14 +1,30 @@
-.primary h3{
+
+.primary h3,h2{
 font-family: 'Cabin Sketch', cursive;
   font-size: 30px;
-  font-weight: bold;;
+  font-weight: light;
 color: black;
+text-align: center;
 }
 .primary{
   background: white;
 
 }
-
+.button {
+  background-color: white;
+  padding: 6px;
+}
+.button:hover{
+  background-color: #9F0101;
+}
+.primary .g1,.g2,.g3 {
+  margin-top: 12px;
+  background-color: #f0f0ed;
+}
+.g1,.g2,.g3 p{
+  font-size: 13px;
+  line-height: 20px;
+}
 .caption {
   position: absolute;
   height: 10%;
@@ -60,9 +76,12 @@ font-family: 'Cabin Sketch', cursive;
 }
 .menu li{
   display: inline;
-  margin-left: 20px;
+  margin-left: 5px;
   margin-right: 10px;
-  padding-top: 15px;
+}
+
+.menu ul{
+    padding-top: 15px;
 }
 .head a{
   text-decoration: none;
@@ -72,6 +91,7 @@ opacity: 0.1px;
 text-decoration: none;
 font-family: 'Cabin Sketch', cursive;
 font-size: 16px;
+margin-left: 0;
 }
 .head a:hover{
   color: #590303;
@@ -81,6 +101,7 @@ font-size: 16px;
   text-shadow: none;
   height: 50%;
   width: 50%;
+
   position: relative;
   top:80%;
   left:16%;
@@ -101,6 +122,11 @@ font-weight: 500;
 .foot_w{
   background-color: #9F0101;
 }
+.links{
+  float: left;
+  margin-top: 10px;
+  margin-left: -5px;
+}
 .links li{
 display: inline-block;
 }
@@ -112,4 +138,12 @@ display: inline-block;
 }
 .links a:hover{
   text-decoration: underline;
+}
+.social{
+  float: right;
+margin-right: -5px;
+margin-top: 10px;
+}
+.social li{
+  display: inline;
 }
