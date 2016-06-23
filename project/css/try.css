@@ -1,0 +1,64 @@
+.primary h3{
+font-family: 'Cabin Sketch', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+color: black;
+}
+.primary{
+  background: white;
+}
+.primary p{
+  font-family: 'Average', serif;
+  color: lightblue;
+}
+section{
+margin-top: 10px;
+}
+body{
+  font-family: sans-serif;
+background: #f0f0ed;
+}
+nav{
+background: #9E0303;
+text-align: 50px;
+height:50px;
+float-right;
+padding:10px,20px;
+
+line-height: 40px;
+}
+nav ul{
+
+  float:left;
+  list-style-type: none;
+}
+header h1{
+  float left;
+}
+header{
+  overflow: hidden;
+position: fixed;
+width: 100%;
+}
+nav ul li{
+  display: inline;
+  float:left;
+  text-align: 50px;
+  height:50px;
+  line-height: 40px;
+}
+nav ul li:hover{
+  background-color:#581C1C;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.hero_div{
+  background-image: url('abs.jpg');
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  height: 100%;
+}
