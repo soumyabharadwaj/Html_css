@@ -22,8 +22,10 @@ text-align: center;
   background-color: #f0f0ed;
 }
 .g1,.g2,.g3 p{
-  font-size: 13px;
-  line-height: 20px;
+  padding: 5px;
+}
+.g3 .r1 p{
+  padding-top: 10px;
 }
 .caption {
   position: absolute;
