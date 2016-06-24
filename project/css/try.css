@@ -34,13 +34,17 @@ text-align: justify;
 }
 .primary .para{
   padding: 10px;
+  letter-spacing: 0.7px;
 }
-.primary p{
+.primary p,h5,li{
   font-family: 'Average', serif;
   color: #1A5276;
 }
 .g1,.g2,.g3 {
   padding:10px;
+}
+.g3{
+  padding-bottom: 20px;
 }
 .img_size img{
   width:300px;
@@ -174,7 +178,8 @@ display: inline-block;
   margin-top: 10px;
   margin-left: -5px;
   padding-top: 10px;
-  padding-bottom: 10px;}
+  padding-bottom: 10px;
+}
 .social li{
   display: inline;
 }
@@ -183,6 +188,17 @@ display: inline-block;
 }
 .copyright{
   background-color: #7B241C;
-  text-align: right;
-  padding: 10px;
+
+}
+.copyright p{
+
+  text-align:left;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size:14px;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
