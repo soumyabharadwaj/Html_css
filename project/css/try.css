@@ -37,7 +37,7 @@ text-align: justify;
 }
 .primary p{
   font-family: 'Average', serif;
-  color: lightblue;
+  color: #1A5276;
 }
 .g1,.g2,.g3 {
   padding:10px;
@@ -56,7 +56,7 @@ text-align: justify;
   height: 10%;
   width: 100%;
   text-align: center;
-  bottom: 10%;
+  bottom: 12%;
   /*left: 65%;*/
   background-color:#1A5276   ;
   color: #D0D3D4;
@@ -78,7 +78,7 @@ background: #f0f0ed;
 
 header{
   width:100%;
-  height:50px;
+  height:60px;
   position: fixed;
   top: 0;
   background-color:#7B241C ;
@@ -93,9 +93,11 @@ float: left;
   color: white;
   /*opacity: 0.2;*/
   padding-right: 400px;
+/*  position: relative;*/
+  padding-left: 15px;
 }
 
-.menu nav ul{
+.menu nav{
   float:right;
 }
 .menu li{
@@ -117,8 +119,9 @@ font-family: 'Cabin Sketch', cursive;
 font-size: 16px;
 margin-left: 0;
 }
+
 .head a:hover{
-  color: #590303;
+  color: #A04000  ;
 }
 .line{
   color: black;
@@ -157,7 +160,7 @@ font-weight: 500;
 display: inline-block;
 
 }
-.links a{
+.links a,.social h3{
   text-decoration: none;
   color: white;
   font-family: 'Cabin Sketch', cursive;
@@ -168,12 +171,18 @@ display: inline-block;
 }
 .social{
   float: right;
-margin-right: -5px;
-margin-top: 10px;
-}
+  margin-top: 10px;
+  margin-left: -5px;
+  padding-top: 10px;
+  padding-bottom: 10px;}
 .social li{
   display: inline;
 }
 .social img{
   width:35px;
+}
+.copyright{
+  background-color: #7B241C;
+  text-align: right;
+  padding: 10px;
 }
